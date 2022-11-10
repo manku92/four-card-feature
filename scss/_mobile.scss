@@ -1,0 +1,31 @@
+@media(max-width: 415px){
+  .container{
+    max-width: 320px;
+    padding: 2rem 1rem;
+
+    header {
+      h1,
+      h2{
+        font-size: 1.4rem;
+      }
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+
+  #cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-item{
+    .card-text{
+      h3,
+      p{
+        padding: 0.5rem 0;
+      }
+    }
+  }
+
+}
